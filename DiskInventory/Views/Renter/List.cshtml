@@ -1,0 +1,37 @@
+﻿@model List<DiskInventory.Models.Renter>
+@{ 
+    ViewBag.Title = "Renter Manager";
+}
+<h1>@ViewBag.Title</h1>
+
+@if (Model.Count() > 0)
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Renter ID</th>
+                <th>Last Name</th>
+                <th>First Name</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+            <tbody>
+                @foreach (var renter in Model)
+                {
+                <tr>
+                    <td>@renter.RenterId</td>
+                    <td>@renter.Lastname</td>
+                    <td>@renter.Firstname</td>
+                    <td>@renter.PhoneNum</td>
+
+                </tr>
+                }
+            </tbody>
+        
+    </table>
+}
+else
+{
+    <div>No data found.</div>
+}
+
