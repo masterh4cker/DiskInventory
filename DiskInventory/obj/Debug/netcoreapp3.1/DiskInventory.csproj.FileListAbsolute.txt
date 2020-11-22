@@ -69,3 +69,9 @@ C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\DiskInventory.gen
 C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Artist\List.cshtml.g.cs
 C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Renter\List.cshtml.g.cs
 C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Disk\List.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Artist\Delete.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Artist\Edit.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Renter\Edit.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Renter\Delete.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Disk\Edit.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Disk\Delete.cshtml.g.cs
