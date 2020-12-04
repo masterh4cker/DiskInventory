@@ -1,0 +1,44 @@
+﻿@model DiskHasRenter
+@{
+    string title = ViewBag.Action + " Checkout";
+    ViewBag.Title = title;
+}
+
+<h2>@ViewBag.Title</h2>
+<form asp-action="Edit" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div>
+        <label asp-for="DiskId">Disk</label>
+        <select asp-for="DiskId" class="form-control">
+            <option value="">select a disk</option>
+            @foreach (Disk d in ViewBag.Disks)
+            {
+                <option value="@d.DiskId">@d.DiskName</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label asp-for="RenterId">Renter</label>
+        <select asp-for="RenterId" class="form-control">
+            <option value="">select a renter</option>
+            @foreach (Renter r in ViewBag.Renters)
+            {
+                <option value="@r.RenterId">@r.Lastname, @r.Firstname</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label asp-for="RentDate">Rented Date</label>
+        <input type="date" asp-for="RentDate" class="form-control"/>
+        </div>
+    <div>
+        <label asp-for="ReturnedDate">Returned Date</label>
+        <input type="date" asp-for="ReturnedDate" class="form-control" />
+    </div>
+
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
+    <a asp-controller="DiskHasRenter" asp-action="List" class="btn btn-primary">Cancel</a>
+
+</form>

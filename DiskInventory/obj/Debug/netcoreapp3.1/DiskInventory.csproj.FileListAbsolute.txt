@@ -75,3 +75,5 @@ C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Rente
 C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Renter\Delete.cshtml.g.cs
 C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Disk\Edit.cshtml.g.cs
 C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\Disk\Delete.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\DiskHasRenter\List.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Debug\netcoreapp3.1\Razor\Views\DiskHasRenter\Edit.cshtml.g.cs

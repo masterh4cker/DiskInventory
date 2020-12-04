@@ -139,10 +139,12 @@ namespace DiskInventory.Models
 
             modelBuilder.Entity<DiskHasRenter>(entity =>
             {
-                entity.HasKey(e => new { e.RenterId, e.DiskId })
-                    .HasName("PK__disk_has__42F5BB64A2E64220");
+                //entity.HasKey(e => new { e.RenterId, e.DiskId })
+                    //.HasName("PK__disk_has__42F5BB64A2E64220");
 
                 entity.ToTable("disk_has_renter");
+
+                entity.Property(e => e.Id).HasColumnName("Id");
 
                 entity.Property(e => e.RenterId).HasColumnName("renter_id");
 

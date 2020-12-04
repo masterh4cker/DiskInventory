@@ -69,3 +69,11 @@ C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\staticwebassets
 C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\DiskInventory.dll
 C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\DiskInventory.pdb
 C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\DiskInventory.genruntimeconfig.cache
+C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\Razor\Views\Artist\Delete.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\Razor\Views\Artist\Edit.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\Razor\Views\Disk\Delete.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\Razor\Views\Disk\Edit.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\Razor\Views\Renter\Delete.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\Razor\Views\Renter\Edit.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\Razor\Views\DiskHasRenter\Edit.cshtml.g.cs
+C:\diskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\Razor\Views\DiskHasRenter\List.cshtml.g.cs

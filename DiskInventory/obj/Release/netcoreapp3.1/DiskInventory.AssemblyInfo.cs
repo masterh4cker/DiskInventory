@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("8a91f6dc-b8d8-4682-ad09-0b65efa3b4f3")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiskInventory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
