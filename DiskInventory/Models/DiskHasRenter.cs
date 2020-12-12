@@ -8,7 +8,7 @@ namespace DiskInventory.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Please enter a borrower")]
+        [Required(ErrorMessage = "Please enter a renter")]
         public int RenterId { get; set; }
         public virtual Renter Renter { get; set; }
 
